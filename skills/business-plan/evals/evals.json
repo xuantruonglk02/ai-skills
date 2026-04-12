@@ -1,0 +1,59 @@
+{
+  "skill_name": "business-plan",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to create a business plan for a new feature: photo session history. The idea is that after a photobooth session ends, the end-user should be able to see a history of their past sessions and re-download their photos. Admins should also be able to browse session history filtered by date range and status. The project is at /Users/truongpx/Desktop/projects/photobooth/photobooth-manager. Save the plan there.",
+      "expected_output": "A business_plan.md file created at docs/feature/photo_session_history/business_plan.md (or similar key) with all required sections: overview, user flow, table of contents, detailed plan (with functional requirements, business rules, acceptance criteria, edge cases), impact analysis, and related features. The detailed plan section should be thorough with at least 2 functional areas broken down.",
+      "files": [],
+      "expectations": [
+        "The file docs/feature/photo_session_history/business_plan.md (or a similarly named directory) was created in the project",
+        "The document has an Overview section with goals and scope",
+        "The document has a User Flow Overview section describing both the end-user and admin journeys",
+        "The document has a Table of Contents with links",
+        "The Detailed Plan section exists and covers at least 2 functional areas",
+        "Each functional area in the Detailed Plan has Functional Requirements, Business Rules, Acceptance Criteria, and Edge Cases",
+        "The document has an Impact Analysis section",
+        "The document has a Related Features & Plans section",
+        "The document is written entirely in English",
+        "The Feature ID follows the format feature/key_word"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need to write a business plan for adding a contact form submission feature to the photobooth manager. When a photobooth event ends, I want booth operators to be able to submit a feedback/contact form with their event rating and comments. The system should store these submissions and let admins view and export them. There may be some spam protection needed. Project is at /Users/truongpx/Desktop/projects/photobooth/photobooth-manager.",
+      "expected_output": "A business_plan.md file at docs/feature/contact_form_submission/business_plan.md with all template sections filled in. The Detailed Plan should cover: form submission (fields, validation), storage (data model), admin view/export, and spam protection as a separate concern. Impact analysis should mention any existing modules that this touches.",
+      "files": [],
+      "expectations": [
+        "A business_plan.md file was created under docs/feature/ in the project",
+        "The Feature ID uses English and follows feature/key_word format",
+        "The Overview clearly states what the contact form does and why",
+        "The User Flow Overview covers both operator (submitting) and admin (viewing) flows",
+        "The Detailed Plan has at least 3 functional areas (e.g., form fields, storage, admin view)",
+        "Acceptance criteria are present and testable (not vague)",
+        "Edge cases include spam protection or invalid input scenarios",
+        "Non-Functional Requirements section is present",
+        "Impact Analysis mentions which existing modules are affected",
+        "Document is written in English"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I want to plan a feature for bulk user import — admin should be able to upload a CSV file to create multiple user accounts at once. Some validations needed: duplicate email check, required fields, role assignment. Send a welcome email to each created user. Project: /Users/truongpx/Desktop/projects/photobooth/photobooth-manager",
+      "expected_output": "A business_plan.md at docs/feature/bulk_user_import/business_plan.md. Detailed Plan should cover CSV parsing/validation, user creation logic, duplicate handling, role assignment, and email notification. Edge cases should be thorough (partial failures, malformed CSV, etc.). Impact analysis should note impact on the user module and email service.",
+      "files": [],
+      "expectations": [
+        "A business_plan.md file was created under docs/feature/ in the project",
+        "Feature ID is in English, format feature/key_word",
+        "Overview section describes the bulk import feature clearly",
+        "Detailed Plan covers CSV validation as its own functional area",
+        "Detailed Plan covers the user creation logic with business rules (e.g., duplicate email handling)",
+        "Detailed Plan covers email notification for welcome emails",
+        "Edge cases include: malformed CSV, duplicate emails, partial batch failures",
+        "Impact Analysis mentions the user management module",
+        "Acceptance criteria are specific and testable",
+        "Document is written in English"
+      ]
+    }
+  ]
+}

@@ -205,4 +205,4 @@
 
 | Feature ID | Description | Relationship | Link |
 |------------|-------------|--------------|------|
-| {e.g., `feature/1_s3_frame_layout`} | {e.g., S3 migration for frame layouts} | {e.g., Dependency — reuses `AwsS3Service`} | [business_plan.md](../1_s3_frame_layout/business-plan.md) |
+| {e.g., `feature/1_s3_frame_layout`} | {e.g., S3 migration for frame layouts} | {e.g., Dependency — reuses `AwsS3Service`} | [business_plan.md](../1_s3_frame_layout/business_plan.md) |

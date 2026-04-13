@@ -1,0 +1,29 @@
+{
+  "skill_name": "implementation-plan",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "tạo implementation plan cho tính năng async media download. business plan nằm ở docs/feature/async_media_download/business-plan.md. working directory là /Users/truongpx/Desktop/projects/photobooth/photobooth-manager",
+      "expected_output": "An implementation-plan.md file saved at docs/feature/async_media_download/implementation-plan.md. The file must include: Document Overview table, Overview section with Impact Summary, Routes Summary table, Detailed Code Changes section with git diff format for all affected files (with rationale for each), Impact Analysis table, Unresolved Contradictions section, and References section. Code changes must reference real files from the codebase.",
+      "files": [
+        "docs/feature/async_media_download/business-plan.md"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "create implementation plan from docs/feature/contact_form_submission/business-plan.md. working directory: /Users/truongpx/Desktop/projects/photobooth/photobooth-manager",
+      "expected_output": "An implementation-plan.md file saved at docs/feature/contact_form_submission/implementation-plan.md. Must contain all required sections: overview with impacted files listed, routes table (or a note if no route changes), detailed code changes in git diff format with explanation for each change, impact analysis, contradictions section.",
+      "files": [
+        "docs/feature/contact_form_submission/business-plan.md"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "lên implementation plan cho feature photo session history dựa trên business plan tại docs/feature/3_photo_session_history/business-plan.md. project dir: /Users/truongpx/Desktop/projects/photobooth/photobooth-manager",
+      "expected_output": "An implementation-plan.md file at docs/feature/3_photo_session_history/implementation-plan.md with all required sections. The plan should be detailed enough that a coding agent can follow it without additional thinking — each git diff block should reference actual file paths from the codebase.",
+      "files": [
+        "docs/feature/3_photo_session_history/business-plan.md"
+      ]
+    }
+  ]
+}
